@@ -1,11 +1,9 @@
 <h1>Vice Versa</h1>
-<form>
-	<textarea cols="50" rows="10" name='usertext'>
+<form action="{% url 'reverse' %}">
+	<textarea   cols="50" rows="10" name='usertext'>
 		
 	</textarea>
 	<br><br>
 	<input type="submit" value="Reverse">
-	<p>Another paragraph</p>
-	<p>Another one paragraph</p>
 
 </form>
